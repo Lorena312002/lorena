@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background: url("../img/file.png");
+    background-size: cover;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+section .cont-botones{
+    width: 40%;
+    height: 500px;
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    border: 2px solid #fff;
+
+}
+
+section .cont-botones h2{
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+section .cont-botones button{
+    padding: 15px 40px;
+    border-radius: 20px;
+    color: #fff;
+    background: #12e1d6;
+    margin: 12px;
+    border: 2px solid #fff;
+}
+
+section .cont-figura{
+    width: 40%;
+    height: 500px;
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    border: 2px solid #fff;
+}
+button:hover{
+    background-color: #F411B5;
+    transform: ;
+    
+}
+
+section .cont-figura h2{
+    color: #fff;
+    font-size: 50px;
+}
+
+ #figura{
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    margin: 20px auto;
+    transition: .5s;
+   
+}
+
+#figura.circulo{
+    border-radius: 50%;
+    transform: rotate(-360deg);
+    transition: .5s;
+}
+
+#figura.rectangulo{
+    width: 300px;
+    transition: .4s;
+}
+
+#figura.Top{
+    transform: translatey(-100px);
+    transition: .5s;
+}
+
+#figura.left{
+    transform: translatex(-100px);
+    transition: .5s;
+}
+
+#figura.right{
+    transform: translatex(100px);
+    transition: .5s;
+}
+#figura.buttom{
+        transform: translate(0, 100px);
+        transition: .5s;
+    }
+    
+
+#figura.diagonal{
+    transform: translate(100px, -100px);
+    
+    transition: .5s linear;
+}
+
+#figura.gift{
+    background: url(../img/perro.gif);
+    transition: .5s ;
+   
+}
+
+#figura.rombo{
+    
+    transform: rotate(45deg);
+    transition: .5s linear;
+    
+    
+}
